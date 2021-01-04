@@ -47,7 +47,7 @@ class Jet(SilahliKuvvetler):
     def LoadOn(self,bomb=0):  
         
         if self.IsRetired():                                                                    # If it's retired he wouldn't load on 
-            print("He's retired. It is not be available to load on!")
+            print("He's retired. It is not available to load on!")
         else:
             self.bomb = bomb
             if self.bomb == 0:
