@@ -31,12 +31,12 @@ class Jet(SilahliKuvvetler):
         print("-"*20) 
   
     def LoadOn(self,bomb=0):  
-        self.bomb = bomb  
+        self.bomb = bomb                                                                    # with tons
         print(self.name, "has loaded with", self.bomb,"tons bomb.")  
   
   
     def TakeOff(self, adress, bomb2drop=0):  
-        self.bomb2drop = bomb2drop                                                          # with tonnes  
+        self.bomb2drop = bomb2drop                                                          # with tonds  
         self.adress = adress                                                                # city or region  
         print(self.name,"has bombed:",self.adress,", with:", self.bomb2drop,"tons bombs.")  # informing the user
     
