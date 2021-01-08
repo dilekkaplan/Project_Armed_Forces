@@ -68,7 +68,7 @@ class Jet(SilahliKuvvetler):
             
             if self.bomb2drop == 0:
                 print(self.adress,"has just visited by",self.name,".")
-            else:                                                       # city or region  
+            else:                                                         
                 print(self.name,"has bombed:",self.adress,", with:", self.bomb2drop,"tons bombs.")  # informing the user
 
             if (self.bomb == 0) and (bomb2drop != 0):
