@@ -298,8 +298,19 @@ class Tanklar(SilahliKuvvetler):
             return True                             #su yüksekliği arasındaki fark 200cm olduğunda, bu tank sulu ortamlarda çalışabiliyor demektir.
         else:
             return False
-        
-    
+#Tanklar classı için oluşturduğumuz örnek nesneler        
+M48_Patton= Tanklar("M48_Patton",1974,"US")
+M60_Patton=Tanklar("M60_Patton",1960,"US")
+
+Leopard_1A3T1.is_usable_in_water(120,325)
+Leopard_2A4.is_usable_in_water(120,400)
+
+Leopard_2A4.time2repair()
+M60T.time2repair()
+
+M48_Patton.info()
+M60_Patton.info()
+
 
 class Helicopter(SilahliKuvvetler):
     "Bu class helikopterleri temsil eder. -Büşra-"
